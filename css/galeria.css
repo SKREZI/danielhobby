@@ -1,0 +1,64 @@
+
+.galeria {
+    background: rgba(255,255,255,.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1000px;
+    height: 100%;
+}
+.videos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+.video {
+    max-width: 400px;
+    margin: 25px;
+    width:100%;
+    height: 300px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255,255,255,.1);
+    flex-direction: column;
+    border-radius: 25px;
+}
+.video iframe {
+    width: 70%;
+    height: 70%;
+}
+.video p
+{
+    font-size:20px;
+    text-align: center;
+}
+
+.zdjecie {
+    max-height: 600px;
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.zdjecie p {
+    font-size: 22px;
+}
+
+.puchar
+{
+
+    background: #fff;
+    border-radius: 25px;
+    width: 100%;
+    height: 400px;
+}
