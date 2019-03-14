@@ -3,15 +3,14 @@
     font-family: 'Roboto';
     src: url("../fonty/Roboto-Medium.ttf");
 }
-*
-{text-align:center;}
+
 *,
 *::before,
 *::after
 {
     margin: 0;
     padding: 0;
-    
+    text-align:center;
     box-sizing: border-box;
 }
 a {
