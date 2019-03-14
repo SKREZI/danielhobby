@@ -3,6 +3,8 @@
     font-family: 'Roboto';
     src: url("../fonty/Roboto-Medium.ttf");
 }
+*
+{text-align:center;}
 *,
 *::before,
 *::after
